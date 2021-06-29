@@ -1,0 +1,12 @@
+# Item 3 #
+
+import random
+
+L3 = []
+for cont in range(0, 19):
+    L3.append(random.randint(0, 100))
+
+media = sum(L3) / len(L3)
+print("Item 3 - média:", media)
+print("Item 3 - maior valor:", max(L3))
+print("Item 3 - menor valor:", min(L3))

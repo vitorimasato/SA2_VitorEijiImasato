@@ -1,0 +1,64 @@
+# UC6 - Situação de aprendizagem 2 - Aluno: Vitor Eiji Imasato #
+import random
+
+L = [5, 7, 2, 9, 4, 1, 3]
+
+# Item 1 #
+# A #
+print("Item 1.a:", len(L))
+
+# B #
+print("Item 1.b:", max(L))
+
+# C #
+print("Item 1.c:", min(L))
+
+# D #
+print("Item 1.d:", sum(L))
+
+# E #
+print("Item 1.e:", sorted(L))
+
+# F #
+print("Item 1.f:", sorted(L, reverse=True))
+
+# Item 2 #
+n1 = random.choice(L)
+n2 = random.choice(L)
+n3 = random.choice(L)
+n4 = random.choice(L)
+
+print(n1, n2, n3, n4)
+media = (n1 + n2 + n3 + n4)/4
+print("Item 2:", media)
+
+# Item 3 #
+L3 = []
+for cont in range(0, 19):
+    L3.append(random.randint(0, 100))
+
+media = sum(L3) / len(L3)
+print("Item 3 - média:", media)
+print("Item 3 - maior valor:", max(L3))
+print("Item 3 - menor valor:", min(L3))
+
+# Item 4 #
+x4 = input("Qual o tamanho desejado do desenho?")
+ex4 = ""
+for y in range(0, int(x4)):
+    ex4 += "_"
+print("Item 4:" + ex4)
+
+# Item 5 #
+print("Item 5:")
+L5 = ["Situacao", "De", "Aprendizagem", "Numero", "2"]
+for z in range(0, len(L5)):
+    print("{}: {}".format(z, L5[z]))
+
+# Item 6 #
+ex6 = int(input("Quantas horas deseja converter em segundos?"))
+segundos = ex6 * 3600
+print(segundos, "segundos.")
+
+# Item 7 #
+print(" *" "\n * *" "\n * *" "\n * *" "\n*** ***" "\n * *" "\n * *" "\n *****")

@@ -1,0 +1,6 @@
+# Item 5 #
+
+print("Item 5:")
+L5 = ["Situacao", "De", "Aprendizagem", "Numero", "2"]
+for z in range(0, len(L5)):
+    print("{}: {}".format(z, L5[z]))

@@ -1,0 +1,5 @@
+# Item 6 #
+
+ex6 = int(input("Quantas horas deseja converter em segundos?"))
+segundos = ex6 * 3600
+print(segundos, "segundos.")

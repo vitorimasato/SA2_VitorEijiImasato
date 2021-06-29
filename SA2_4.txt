@@ -1,0 +1,7 @@
+# Item 4 #
+
+x4 = input("Qual o tamanho desejado do desenho?")
+ex4 = ""
+for y in range(0, int(x4)):
+    ex4 += "_"
+print("Item 4:" + ex4)
